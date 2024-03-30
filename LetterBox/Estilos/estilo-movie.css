@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+/*Resetando config iniciais da pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(0, 2, 10);
+}
+
+.header{
+    /*background-color: blue;*/
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.nav-bar{
+    /*background-color: black;*/
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar-element-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-bar-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar-logo-img{
+    width: 80px;
+    height: 80px;
+}
+
+.nav-bar-logo-text{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    color: white;
+}
+
+.nav-bar-element{
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    color: white;
+}
+
+/*.nav-bar-element:hover{
+    border: 1px solid whitesmoke;
+    border-width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+}
+*/
+
+.container{
+    /*background-color: yellowgreen;*/
+    display: flex;
+    width: 100%;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container-movie{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    gap: 30px;
+
+}
+
+.container-movie-element{
+    background-color: rgb(14, 22, 56);
+    height: 80%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center ;
+}
+
+.container-movie-element-img{
+    margin-top: 20px;
+    width: 250px;
+    height: 200px;
+    border-radius: 60px;
+    border: 2px solid goldenrod;
+    margin-bottom: 20px;
+}
+
+.container-movie-element-img:hover{
+    box-shadow: 2px 2px 40px rgb(67, 56, 1);
+    transition-duration: 0.3s;
+    transform: scale(1.6);
+    transition: transform 1.5s;
+
+}
+
+
+.container-movie-element-button{
+    border: 1px solid chocolate;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    padding: 8px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-movie-element-button:hover{
+    background-color: chocolate;
+    transition-duration: 0.3s;
+}
+
+.container-movie-element-text{
+    display: none;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.container-pass-button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+   border-radius: 40px;
+   background-color: orange;
+   width: 65px;
+   height: 65px;
+}
+
+.container-pass-button:hover{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(209, 139, 8);
+    transition-duration: 0.5s;
+}
+
+.container-pass-button-element-esq{
+   font-family: "Sarala", sans-serif;
+   font-weight: 400;
+   font-size: 40pt;
+   color: white;
+   margin-right: 3px;
+   margin-bottom: 3px;
+}
+
+.container-pass-button-element-dir{
+   font-family: "Sarala", sans-serif;
+   font-weight: 400;
+   font-size: 40pt;
+   color: white;
+   margin-left: 3px;
+   margin-bottom: 3px;
+}
+
+.container-pass-button-element-dir:hover{
+    font-size: 50pt;
+    transition-duration: 0.3s;
+}
+.container-pass-button-element-esq:hover{
+    font-size: 50pt;
+    transition-duration: 0.3s;
+}
+
+
+.rodape{
+    /*background-color: brown;*/
+    height: 60px;
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-movie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-divisor{
+    border-top: 1px solid white;
+    width: 80%;
+}
+
+.rodape-movie-text{
+    margin-top: 5px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    color: white;
+}

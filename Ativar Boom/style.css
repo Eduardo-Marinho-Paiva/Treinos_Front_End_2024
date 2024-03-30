@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+.janela-ball{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    margin-top: 50%;
+    transform: none;
+    transition-duration: 4s;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.toggle-ball{
+    position: absolute;
+    margin-top: 60%;
+    padding: 10px;
+    background-color: olivedrab;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14pt;
+    border: none;
+    border-radius: 10px;
+    transform: none;
+}
+
+.toggle-ball:hover{
+    background-color: rgb(134, 192, 19);
+    transform: translateY(10%) scale(1.1);
+    transition: transform 900ms;
+}
+
+.desativar{
+    display: none;
+}
