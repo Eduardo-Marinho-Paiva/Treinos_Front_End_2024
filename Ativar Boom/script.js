@@ -6,7 +6,7 @@ btnBoom.addEventListener("onclick",desativarBoom());
 
 function ativarBoom(){
     for(let i = 0; i < 8 ; i++){
-        document.querySelectorAll("div.ball")[i].style.transform = `translateX(${valorX[i]}%)  translateY(${valorY[i]}%) scale(3.5)`;
+        document.querySelectorAll("div.ball")[i].style.transform = `translateX(${valorX[i]}%)  translateY(${valorY[i]}%) scale(1.5)`;
         document.querySelectorAll("div.ball")[i].style.backgroundColor = `red`;
         document.querySelectorAll("div.ball")[i].style.color = `white`;
 

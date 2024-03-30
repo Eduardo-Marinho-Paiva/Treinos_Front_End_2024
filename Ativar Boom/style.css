@@ -19,7 +19,7 @@ body{
     position: absolute;
     margin-top: 50%;
     transform: none;
-    transition-duration: 4s;
+    transition-duration: 2s;
     color: black;
     display: flex;
     align-items: center;
